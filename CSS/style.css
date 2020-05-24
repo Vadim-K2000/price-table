@@ -1,2 +1,104 @@
 @import "reset.css";
 
+* {
+    box-sizing: border-box;
+}
+
+thead td:nth-child(1) {
+    overflow: hidden;
+    padding: 15px 5%;
+}
+
+thead td {
+    padding-top: 0;
+}
+
+td:first-child {
+    padding: 1em 1.5em;
+    width: 230px;
+    text-align: left;
+}
+
+p {
+    display: inline-block;
+}
+
+td {
+    padding: 1em;
+    text-align: center;
+    width: 50px;
+    height: 1.2em;
+}
+
+td p {
+    padding: 3px 0;
+}
+
+table {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+thead {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+thead p:nth-child(2n) {
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+tbody tr:nth-child(2n+1) td:nth-child(2n+2) {
+    background-color: #e7e7e7;
+}
+
+tbody tr:nth-child(2n+2) td:nth-child(2n+1) {
+    background-color: #e7e7e7;
+}
+
+tbody tr:nth-child(2n+1) td:nth-child(2n+1) {
+    background-color: #dbdbdb;
+}
+
+tbody td:nth-child(1n+2) {
+    width: 120px;
+}
+
+thead td:nth-child(1) {
+    background-color: #7887ab;
+}
+
+thead td:nth-child(2) {
+    background-color: #4f628e;
+}
+
+thead td:nth-child(3) {
+    background-color: #2e4172;
+}
+
+thead td:nth-child(4) {
+    background-color: #162955;
+}
+
+thead td:nth-child(5) {
+    background-color: #061539;
+}
+
+tfoot button {
+    padding: 5px 20px;
+    background-color: #d3d3d3;
+    border: solid 1px gray;
+    color: gray;
+}
+
+tfoot td:nth-child(2n+1) {
+    background-color: #dbdbdb;
+}
+
+tfoot td:nth-child(2n+2) {
+    background-color: #e7e7e7;
+}
